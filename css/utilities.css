@@ -1,0 +1,41 @@
+
+
+/* my variables for light mode */
+:root{
+    --Bright-Red: hsl(12, 88%, 59%);
+    --Dark-Blue: hsl(228, 39%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Vary-Light-Gray: hsl(0, 0%, 98%);
+    }
+    
+
+
+.myContainer{
+    padding: 0 1.3rem;
+}
+
+/* hiding existing close menu (toggle class0 */
+.hide{
+    display: none;
+}
+
+/* display flex property */
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* display div to center vertically */
+.center-flex{
+    display: flex;
+    align-items: center;
+}
+
+/* flex saperating the div */
+.saprate-flex{
+    display: flex;
+    justify-content: flex-end;
+}
